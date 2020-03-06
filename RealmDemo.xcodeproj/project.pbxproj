@@ -85,11 +85,11 @@
 				CEBEDE12236EC1E5001C7E15 /* AppDelegate.swift */,
 				CEBEDE14236EC1E5001C7E15 /* SceneDelegate.swift */,
 				CEBEDE16236EC1E5001C7E15 /* ViewController.swift */,
+				CEBEDE26236EC80A001C7E15 /* Cat.swift */,
 				CEBEDE18236EC1E5001C7E15 /* Main.storyboard */,
 				CEBEDE1B236EC1EA001C7E15 /* Assets.xcassets */,
 				CEBEDE1D236EC1EA001C7E15 /* LaunchScreen.storyboard */,
 				CEBEDE20236EC1EA001C7E15 /* Info.plist */,
-				CEBEDE26236EC80A001C7E15 /* Cat.swift */,
 			);
 			path = RealmDemo;
 			sourceTree = "<group>";

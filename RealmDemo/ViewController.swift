@@ -22,14 +22,22 @@ class ViewController: UIViewController {
         myCat.color = "White"
         myCat.gender = "Male"
         
+        myCat.name = "leslie"
+        myCat.color = "blue"
+        myCat.gender = "male"
+        
         try! realm.write {
             realm.add(myCat)
         }
         
         let results = realm.objects(Cat.self).filter("name = 'Moe'")
+        print(results)
+        print("count: \(results.count)")
+        print()
         
-        print(results.count)
-        
+        let results2 = realm.objects(Cat.self)
+        print(results2)
+        print("count: \(results2.count)")
         
     }
 
